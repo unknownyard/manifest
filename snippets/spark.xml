@@ -30,6 +30,9 @@
   <remote  name="octavi"
            fetch="https://github.com/Octavi-OS"
            revision="refs/heads/11" />
+  <remote name="spark-11"
+          fetch="https://github.com/unknownyard"
+          revision="refs/heads/fire"/>
 
   <!-- Remove unused hardware repos -->
   <remove-project name="device/amlogic/yukawa" />
@@ -154,19 +157,19 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="spark" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="spark" />
-  <project path="frameworks/base" name="frameworks_base" remote="spark" />
+  <project path="frameworks/av" name="frameworks_av" remote="spark-11" />
+  <project path="frameworks/base" name="frameworks_base" remote="spark-11" />
   <project path="frameworks/native" name="frameworks_native" remote="spark" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="spark" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="spark" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="spark" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="spark-11" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="spark" />
 
   <!-- General repos -->
   <project path="art" name="art" remote="spark" />
   <project path="bionic" name="bionic" remote="spark" />
   <project path="bootable/recovery" name="bootable_recovery" remote="spark" />
-  <project path="build/make" name="build_make" remote="spark" >
+  <project path="build/make" name="build_make" remote="spark-11" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -204,7 +207,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="spark" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="spark" />
   <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="spark" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark-11" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="spark" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="spark" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="spark" />
@@ -235,7 +238,7 @@
 
   <!-- System repos -->
   <project path="system/bt" name="system_bt" remote="spark" />
-  <project path="system/core" name="system_core" remote="spark" />
+  <project path="system/core" name="system_core" remote="spark-11" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="spark" />
   <project path="system/netd" name="system_netd" remote="spark" />
   <project path="system/security" name="system_security" remote="spark" />
