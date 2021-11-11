@@ -138,6 +138,8 @@
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/tools/metalava" />
+  <remove-project name="packages/apps/ManagedProvisioning" />
+  <remove-project name="external/robolectric-shadows" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
@@ -159,7 +161,7 @@
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="spark-11" />
   <project path="frameworks/base" name="frameworks_base" remote="spark-11" />
-  <project path="frameworks/native" name="frameworks_native" remote="spark" />
+  <project path="frameworks/native" name="frameworks_native" remote="spark-11" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="spark" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="spark" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="spark-11" />
@@ -220,6 +222,7 @@
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="spark" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="spark" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="spark" />
+  <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" remote="spark-11" />
 
   <!-- Prebuilt repos -->
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" clone-depth="1" remote="github" revision="master" />
@@ -260,4 +263,5 @@
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="spark" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="spark" />
 
+  <project path="external/robolectric-shadows" name="external_robolectric-shadows" remote="spark-11" />
 </manifest>
