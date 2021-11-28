@@ -138,8 +138,8 @@
   <remove-project name="platform/external/tinyalsa" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/tools/metalava" />
-  <remove-project name="packages/apps/ManagedProvisioning" />
-  <remove-project name="external/robolectric-shadows" />
+  <remove-project name="platform/packages/apps/ManagedProvisioning" />
+  <remove-project name="platform/external/robolectric-shadows" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
@@ -200,6 +200,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="spark" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="spark" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="spark" />
+  <project path="hardware/nxp/nfc" name="platform_hardware_nxp_nfc" remote="spark-11" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="spark" />
