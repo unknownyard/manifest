@@ -207,7 +207,7 @@
   <project path="packages/apps/Fireworks" name="packages_apps_Fireworks" remote="spark" />
   <project path="packages/apps/GamingMode" name="packages_apps_GamingMode" remote="spark" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="spark" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="spark" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="spark-11" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="spark" />
   <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="spark" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="spark-11" />
@@ -241,11 +241,11 @@
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="spark" revision="fire"/>
 
   <!-- System repos -->
-  <project path="system/bt" name="system_bt" remote="spark" />
+  <project path="system/bt" name="system_bt" remote="spark-11" />
   <project path="system/core" name="system_core" remote="spark-11" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="spark" />
   <project path="system/netd" name="system_netd" remote="spark" />
-  <project path="system/security" name="system_security" remote="spark" />
+  <project path="system/security" name="system_security" remote="spark-11" />
   <project path="system/sepolicy" name="system_sepolicy" remote="spark" />
   <project path="system/iorap" name="system_iorap" remote="spark" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="evo" />
