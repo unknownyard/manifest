@@ -170,7 +170,7 @@
   <!-- General repos -->
   <project path="art" name="art" remote="spark" />
   <project path="bionic" name="bionic" remote="spark" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="spark" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="spark-11" />
   <project path="build/make" name="build_make" remote="spark-11" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -236,7 +236,7 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="spark" />
 
   <!-- Services repos -->
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="spark" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="spark-11" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="spark" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="spark" revision="fire"/>
 
