@@ -30,6 +30,7 @@
   <remote  name="octavi"
            fetch="https://github.com/Octavi-OS"
            revision="refs/heads/11" />
+  
   <remote name="spark-11"
           fetch="https://github.com/unknownyard"
           revision="refs/heads/fire"/>
@@ -231,8 +232,8 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="platform_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="octavi" clone-depth="1" />
 
   <!-- Providers repos -->
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="spark" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="spark" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="spark-11" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="spark-11" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="spark" />
 
   <!-- Services repos -->
