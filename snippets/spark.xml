@@ -222,8 +222,8 @@
   <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="spark" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="spark" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="spark" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="spark" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="spark" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="spark-11" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="spark-11" />
   <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" remote="spark-11" />
 
   <!-- Prebuilt repos -->
